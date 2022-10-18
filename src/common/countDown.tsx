@@ -18,7 +18,7 @@ function CountDown(props:CountDownProps) {
     }, [counter]);
     
     return (
-        <div className="count-down">
+        <div className="count-down text-center">
           <div>{props.text ?? ''}{counter}</div>
         </div>
     );
