@@ -28,3 +28,53 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+.settings-buttons {
+    margin-bottom: 20px;
+}
+
+.option:focus{
+    border-color: #049A8F;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(4, 154, 143, 0.5);
+}
+
+.option.invalid,  .option.invalid:focus{
+    border-color: red;
+    box-shadow: 0 0 0 .25rem red;
+}
+
+.textarea-wrapper {
+    margin-bottom: 20px;    
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.textarea-text {
+    color:rgb(136, 133, 133);
+    font-weight: 500;
+}
+
+.black {
+    color: black;
+    font-weight: 500;
+}
+
+.btn-prim, .btn-prim:visited {
+    background-color: #037971 !important;
+    color: white;
+}
+
+.btn-prim:hover, .btn-prim:focus {
+    background-color: #03635D !important;
+    color: white !important;
+}
+
+.count-down {
+    margin-bottom: 20px;
+    margin-left: 52vh;
+    font-size: 50px;
+    font-weight:500;
+    color: #023436;
+}

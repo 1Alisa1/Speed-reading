@@ -23,7 +23,7 @@ function HomePage() {
                         <div className="col-4">
                             <Card
                                 img={letters}
-                                title={'Header'}
+                                title={'Reading accelerator'}
                                 text={'flglhkgkflg'}
                                 btnText={'Start'}
                                 path={'/texts'} />
