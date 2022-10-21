@@ -84,7 +84,8 @@ h1 {
     border: 3px solid #035c568f;
     border-radius: 0.375rem;
     width: 70vh; 
-    height: 22vh;
+   /* height: 22vh; */
+   
     margin: 0 auto;
 }
 
@@ -107,4 +108,45 @@ h1 {
     box-shadow: 0 0 0 .25rem rgba(4, 154, 143, 0.5);
 }
 
+.square-container{
+    width: 300px;
+    position: relative;
+}
 
+.square {
+    border: 1px solid #999;
+
+    position: relative;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+.square-inner{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-point{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgba(255, 0, 0, 0.349);
+    border-radius: 50%;
+    top: 42.5%;
+    left: 42.5%;
+}
+
+.red {
+    color: red;
+}

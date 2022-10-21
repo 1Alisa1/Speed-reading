@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter as Router,
   Route,
@@ -9,6 +8,7 @@ import {HashLink} from 'react-router-hash-link';
 import HomePage from './home/homePage';
 import Texts from './texts/texts';
 import Numbers from './numbers/numbers';
+import SchulteTable from './schulteTable/schulteTable';
 
 function App() {
   return (
@@ -37,6 +37,7 @@ function App() {
         <Routes>
           <Route path='/texts' element={<Texts />}></Route>
           <Route path='/numbers' element={<Numbers />}></Route>
+          <Route path='/schulte-table' element={<SchulteTable />}></Route>
           <Route path='/' element={<HomePage />}></Route>  
         </Routes>  
       </main> 

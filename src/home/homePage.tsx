@@ -1,5 +1,6 @@
 import letters from '../img/letters.jpg';
 import num from '../img/num.png';
+import schultetable from '../img/schultetable.png';
 import intro from '../img/intro.jpg';
 import Card from "./card";
 
@@ -35,6 +36,14 @@ function HomePage() {
                                 text={'flglhkgkflg'}
                                 btnText={'Start'}
                                 path={'/numbers'} />
+                        </div>
+                        <div className="col-4">
+                            <Card
+                                img={schultetable}
+                                title={'Schulte table'}
+                                text={'flglhkgkflg'}
+                                btnText={'Start'}
+                                path={'/schulte-table'} />
                         </div>
                     </div>
                 </div>
