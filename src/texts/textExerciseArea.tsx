@@ -14,6 +14,7 @@ function TextExerciseArea(props: TextExerciseAreaProps) {
   const leftPart = arr.slice(0, props.hilightedWordPosition).join(' ');
   const hilightedWord = ' ' + arr[props.hilightedWordPosition] + ' ';
   const rightPart = arr.slice(props.hilightedWordPosition + 1).join(' ');
+
   return (
     <div className="textarea-wrapper">
       <span className="textarea-text">{leftPart}</span>

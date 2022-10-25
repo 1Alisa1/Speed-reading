@@ -15,7 +15,7 @@ function Card(props: CardProps) {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.text}</p>
-        <Link to={props.path} className="btn btn-primary">
+        <Link to={props.path} className="card-button btn btn-prim">
           {props.btnText}
         </Link>
       </div>

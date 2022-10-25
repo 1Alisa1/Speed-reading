@@ -34,7 +34,9 @@ function NumbersExerciseArea(props: NumbersAreaProps) {
   );
 
   return (
-    <div className="test row justify-content-center mb-3">{props.finished ? 'Finish' : main}</div>
+    <div className="test row justify-content-center fs-5 mb-3">
+      {props.finished ? 'Finish' : main}
+    </div>
   );
 }
 

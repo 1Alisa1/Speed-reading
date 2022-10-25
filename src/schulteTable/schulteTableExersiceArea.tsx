@@ -33,7 +33,7 @@ function SchulteTableExersiceArea(props: SchulteTableExersiceAreaProps) {
   };
 
   const main = (
-    <div className="my-3">
+    <div>
       <FindNumber value={props.value} validValue={props.validValue} />
       <div className="d-flex justify-content-center">
         <div className="row square-container">
@@ -44,9 +44,7 @@ function SchulteTableExersiceArea(props: SchulteTableExersiceAreaProps) {
     </div>
   );
 
-  return (
-    <div className="test row justify-content-center mb-3">{props.finished ? 'Finish' : main}</div>
-  );
+  return <div className="text-center fs-5 mb-4">{props.finished ? 'Finish' : main}</div>;
 }
 
 export default SchulteTableExersiceArea;

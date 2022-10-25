@@ -10,7 +10,7 @@ function HomePage() {
       <section className="intro container-xl">
         <div className="row align-items-center">
           <div className="col-7 ">
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+            <h1>Read faster, remember more</h1>
             <div className="intro-border"></div>
           </div>
           <div className="col-5">
@@ -20,30 +20,36 @@ function HomePage() {
       </section>
       <main>
         <div id="exercises" className="container-xl">
-          <div className="row justify-content-around">
-            <div className="col-4">
+          <div className="row">
+            <div className="col-lg-4">
               <Card
                 img={letters}
                 title={'Reading accelerator'}
-                text={'flglhkgkflg'}
+                text={
+                  'The exercise is aimed at developing your higher reading speed and suppressing replays'
+                }
                 btnText={'Start'}
                 path={'/texts'}
               />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4">
               <Card
                 img={num}
-                title={'Header'}
-                text={'flglhkgkflg'}
+                title={'Remember the number'}
+                text={
+                  'The exercise is aimed at developing instant memory and expanding the field of vision'
+                }
                 btnText={'Start'}
                 path={'/numbers'}
               />
             </div>
-            <div className="col-4">
+            <div className="col-lg-4">
               <Card
                 img={schultetable}
                 title={'Schulte table'}
-                text={'flglhkgkflg'}
+                text={
+                  'The Schulte table is a table with randomly arranged numbers that serve to develop the speed of finding them in ascending order. This exercise improves your peripheral vision'
+                }
                 btnText={'Start'}
                 path={'/schulte-table'}
               />

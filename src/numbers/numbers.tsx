@@ -22,14 +22,17 @@ function Numbers() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [counter, setCounter] = useState(60);
   const [showStatus, setShowStatus] = useState(ShowStatus.InitialText);
-  const [value, setValue] = useState(generateRandomNumber(1));
+  const [value, setValue] = useState(
+    generateRandomNumber(1)
+    /* () => {return genetateRandomNumber(1)} */
+  );
   const [inputValue, setInputValue] = useState(0);
   const [correctAnswer, setCorrectAnswer] = useState(0);
   const [uncorrectAnswer, setUncorrectAnswer] = useState(0);
   const [difficultyLevel, setDifficultyLevel] = useState(1);
   const [finished, setFinished] = useState(false);
   const InitialText =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu';
+    'You will be shown a number for a short period of time. It is necessary to remember and reproduce as accurately as possible all the digits of the number';
 
   useEffect(() => {
     if (correctAnswer === 3) {
@@ -107,7 +110,7 @@ function Numbers() {
 
   return (
     <div className="container-xl">
-      <div className="timer">{isPlaying ? counter : ''}</div>
+      <div className="timer mb-3">{isPlaying ? counter : ''}</div>
 
       {(() => {
         switch (showStatus) {

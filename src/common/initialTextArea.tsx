@@ -6,7 +6,7 @@ interface AreaProps {
 
 function InitialTextArea(props: AreaProps) {
   return (
-    <div className="textarea-wrapper">
+    <div className="textarea-wrapper col-8">
       <h5>{props.initialText}</h5>
     </div>
   );

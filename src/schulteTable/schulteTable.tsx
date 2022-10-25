@@ -28,7 +28,7 @@ function SchulteTable() {
   };
 
   const initialText =
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qu';
+    'At the very beginning of the exercise, you need to fix your eyes in the center of the table. Without looking away from the center, using only peripheral vision, you need to find all the numbers in ascending order as quickly as possible';
 
   const createMatrix = (size: number) => {
     let numbers: number[] = [];
