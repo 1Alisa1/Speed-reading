@@ -60,6 +60,7 @@ function SchulteTable() {
   const [finished, setFinished] = useState(false);
   const [isDifficultyLevelValid, setIsDifficultyLevelValid] = useState(true);
   const [difficultyLevelValue, setDifficultyLevelValue] = useState(0);
+  const [visibleSettings, setVisibleSettings] = useState(true);
 
   const size = difficultyLevelValue + 2;
 
@@ -96,6 +97,7 @@ function SchulteTable() {
   const onPauseClick = () => {
     setIsPlaying(false);
     setShowStatus(ShowStatus.InitialText);
+    setVisibleSettings(false);
   };
 
   const onResetClick = () => {
@@ -104,6 +106,8 @@ function SchulteTable() {
     setCounter(60);
     setMatrix([]);
     setValue(1);
+    setVisibleSettings(true);
+    setDifficultyLevelValue(0);
   };
 
   const handleCountDownFinished = () => {
@@ -113,6 +117,7 @@ function SchulteTable() {
 
     setIsPlaying(true);
     setShowStatus(ShowStatus.ExerciseArea);
+    setVisibleSettings(false);
 
     if (finished) {
       setFinished(false);
@@ -135,12 +140,16 @@ function SchulteTable() {
     }
   }
 
+  const settings = (
+    <Settings
+      onChangeDifficultyLevel={setDifficultyLevelValue}
+      isDifficultyLevelValid={isDifficultyLevelValid}
+    />
+  );
+
   return (
     <div className="container-xl">
-      <Settings
-        onChangeDifficultyLevel={setDifficultyLevelValue}
-        isDifficultyLevelValid={isDifficultyLevelValid}
-      />
+      {visibleSettings ? settings : ''}
 
       <div className="timer">{isPlaying ? counter : ''}</div>
 

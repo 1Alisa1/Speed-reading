@@ -22,6 +22,7 @@ function Texts() {
   const [showStatus, setShowStatus] = useState(ShowStatus.InitialText);
   const [isPlaying, setIsPlaying] = useState(false);
   const [hilightedWordPosition, setHilightedWordPosition] = useState(0);
+  const [visibleSettings, setVisibleSettings] = useState(true);
 
   useEffect(() => {
     setIsTextValid(textValue !== 0);
@@ -49,27 +50,36 @@ function Texts() {
 
   const onPauseClick = () => {
     setIsPlaying(false);
+    setVisibleSettings(false);
   };
 
   const onResetClick = () => {
     setIsPlaying(false);
     setShowStatus(ShowStatus.InitialText);
     setHilightedWordPosition(0);
+    setVisibleSettings(true);
+    setTextValue(0);
+    setSpeedValue(0);
   };
 
   const handleCoutnDownFinished = () => {
     setShowStatus(ShowStatus.ExerciseArea);
     setIsPlaying(true);
+    setVisibleSettings(false);
   };
+
+  const settings = (
+    <Settings
+      onChangeText={setTextValue}
+      onChangeSpeed={setSpeedValue}
+      isTextValid={isTextValid}
+      isSpeedValid={isSpeedValid}
+    />
+  );
 
   return (
     <div className="container-xl">
-      <Settings
-        onChangeText={setTextValue}
-        onChangeSpeed={setSpeedValue}
-        isTextValid={isTextValid}
-        isSpeedValid={isSpeedValid}
-      />
+      {visibleSettings ? settings : ''}
 
       {(() => {
         switch (showStatus) {
