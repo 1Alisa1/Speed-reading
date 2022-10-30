@@ -1,9 +1,35 @@
-.card {
-    max-width: 20rem;
-    margin: 0 auto;
-    margin-bottom: 10%;
-    min-height: 417px;
+main {
+    min-height: calc(87vh - 151px);
 }
+
+.card {
+    margin: 0 auto;
+    margin-bottom: 7vh;
+    border: 0;
+    box-shadow: 0px 2px 15px 4px #2d8680;
+}
+
+.card-size {
+    max-width: 20rem;
+    min-height: 417px;
+    margin-bottom: 5vh;
+}
+
+.noto-sans-400 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+.noto-sans-600 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*.card-border {
+    border: 3px solid #03635D;
+    border-radius: 0.375rem;
+    box-shadow: 0px 2px 15px 4px #2d8680;
+}*/
 
 .card-button {
     position: absolute;
@@ -12,11 +38,11 @@
   
 .navbar {
     background-color: #03B5AA;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
 }
 
 .intro {
-    margin-bottom: 40vh;
+    margin-bottom: 5vh;
 }
 
 
@@ -32,9 +58,40 @@
 }
 
 h1 {
+    font-size: 48px;
     color: #023436;
     text-transform: uppercase;
     text-align: center;
+}
+
+
+.advantages {
+    background-color: #03b5a9;
+    color: white;
+   /* padding-top: 2%;*/
+    padding-bottom: 1%;
+    font-size: 23px;
+    
+}
+
+.advantages-color {
+    background-color: #05a399;
+}
+
+.advantages-img {
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.footer {
+    background-color: #023436;
+}
+
+.border-bottom {
+    border-color: #6c757d !important; 
 }
 
 .settings-buttons {
@@ -104,7 +161,13 @@ h1 {
 
 .input-block {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    height: 5vh;
+}
+
+.input-block input{
+    text-align: center;
+    font-size: 25px;
 }
 
 .input-block:focus {

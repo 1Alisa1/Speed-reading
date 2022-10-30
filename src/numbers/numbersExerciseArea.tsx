@@ -18,9 +18,7 @@ function NumbersExerciseArea(props: NumbersAreaProps) {
     return () => clearTimeout(timerID);
   }, [props.value]);
 
-  const input = (
-    <input className="form-control input-block" type="text" onChange={props.handleInputChange} />
-  );
+  const input = <input className="form-control" type="text" onChange={props.handleInputChange} />;
 
   const main = (
     <div className="numbers-block  col-6">

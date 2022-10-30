@@ -19,7 +19,7 @@ const Select = (props: SelectProps) => {
 
   return (
     <select
-      className={'option form-select' + (props.isValid ? '' : ' invalid')}
+      className={'option form-select noto-sans-400' + (props.isValid ? '' : ' invalid')}
       value={value}
       onChange={(e) => {
         setValue(e.target.value);

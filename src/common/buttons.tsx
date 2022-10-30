@@ -6,7 +6,7 @@ interface ButtonsProps {
 
 function Buttons(props: ButtonsProps) {
   return (
-    <div className="text-center">
+    <div className="text-center noto-sans-400 mb-4">
       <div className="btn-group" role="group" aria-label="butt">
         <button className="button-start btn btn-prim" onClick={props.onStartClick}>
           Start
