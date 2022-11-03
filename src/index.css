@@ -13,6 +13,7 @@ main {
     max-width: 20rem;
     min-height: 417px;
     margin-bottom: 5vh;
+    /*margin-bottom: 1.5rem;*/
 }
 
 .noto-sans-400 {
@@ -39,6 +40,7 @@ main {
 .navbar {
     background-color: #03B5AA;
     margin-bottom: 5vh;
+    /*margin-bottom: 1.5rem;*/
 }
 
 .intro {

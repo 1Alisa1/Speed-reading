@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Buttons from '../common/buttons';
 import Settings from '../texts/settings';
 import CountDown from '../common/countDown';
 import TextExerciseArea from '../texts/textExerciseArea';
 import InitialTextArea from '../common/initialTextArea';
+import Data from './data';
 
 enum ShowStatus {
   InitialText = 1,
@@ -11,7 +12,11 @@ enum ShowStatus {
   ExerciseArea = 3,
 }
 
-function Texts() {
+const Texts: React.FC = () => {
+  const getText = (textNum: number) => {
+    return Data.texts[textNum];
+  };
+
   const initialText =
     'It is necessary to read the selected text, following the highlighted area with your eyes. Try to follow the highlight cloud as close as possible, even if you did not have time to read something';
 
@@ -23,6 +28,10 @@ function Texts() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [hilightedWordPosition, setHilightedWordPosition] = useState(0);
   const [visibleSettings, setVisibleSettings] = useState(true);
+  const [finished, setFinished] = useState(false);
+  const [arr, setArr] = useState(() => {
+    return getText(textValue).split(' ');
+  });
 
   useEffect(() => {
     setIsTextValid(textValue !== 0);
@@ -34,11 +43,20 @@ function Texts() {
     if (isPlaying) {
       timerId = setTimeout(() => {
         setHilightedWordPosition((prev) => prev + 1);
+
+        if (hilightedWordPosition === arr.length - 1) {
+          setFinished(true);
+        }
       }, 60000 / speedValue);
     }
 
     return () => clearTimeout(timerId);
-  }, [isPlaying, hilightedWordPosition, speedValue]);
+  }, [isPlaying, hilightedWordPosition, speedValue, arr.length]);
+
+  const handleTextValueChanged = (textValue: number) => {
+    setTextValue(textValue);
+    setArr(getText(textValue - 1).split(' '));
+  };
 
   const onStartClick = () => {
     if (textValue === 0 || speedValue === 0) {
@@ -66,11 +84,16 @@ function Texts() {
     setShowStatus(ShowStatus.ExerciseArea);
     setIsPlaying(true);
     setVisibleSettings(false);
+
+    if (finished) {
+      setFinished(false);
+      setHilightedWordPosition(0);
+    }
   };
 
   const settings = (
     <Settings
-      onChangeText={setTextValue}
+      onChangeText={handleTextValueChanged}
       onChangeSpeed={setSpeedValue}
       isTextValid={isTextValid}
       isSpeedValid={isSpeedValid}
@@ -92,8 +115,9 @@ function Texts() {
           case ShowStatus.ExerciseArea: {
             return (
               <TextExerciseArea
-                valueText={textValue}
+                arr={arr}
                 hilightedWordPosition={hilightedWordPosition}
+                finished={finished}
               />
             );
           }
@@ -107,6 +131,6 @@ function Texts() {
       />
     </div>
   );
-}
+};
 
 export default Texts;
