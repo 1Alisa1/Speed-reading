@@ -1,8 +1,95 @@
 const Data = {
   texts: [
-    'Так я жил в одиночестве, и не с кем было мне поговорить по душам. И вот шесть лет назад пришлось мне сделать вынужденную посадку в Сахаре. Что-то сломалось в моторе моего самолета. Со мной не было ни механика, ни пассажиров, и я решил, что попробую сам все починить, хоть это и очень трудно. Я должен был исправить мотор или погибнуть. Воды у меня едва хватило бы на неделю. Итак, в первый вечер я уснул на песке в пустыне, где на тысячи миль вокруг не было никакого жилья. Человек, потерпевший кораблекрушение и затерянный на плоту посреди океана, и тот был бы не так одинок. Вообразите же мое удивление, когда на рассвете меня разбудил чей-то тоненький голосок. Он сказал: -Пожалуйста... нарисуй мне барашка! -А?.. -Нарисуй мне барашка... Я вскочил, точно надо мною грянул гром. Протер глаза. Начал осматриваться. И вижу - стоит необыкновенный какой-то малыш и серьезно меня разглядывает. Вот самый лучший его портрет, какой мне после удалось нарисовать. Но на моем рисунке он, конечно, далеко не так хорош, как был на самом деле. Это не моя вина. Когда мне было шесть лет, взрослые внушили мне, что художника из меня не выйдет, и я ничего не научился рисовать, кроме удавов - снаружи и изнутри. Итак, я во все глаза смотрел на это необычайное явление. Не забудьте, я находился за тысячи миль от человеческого жилья. А между тем ничуть не похоже было, чтобы этот малыш заблудился, или до смерти устал и напуган, или умирает от голода и жажды. По его виду никак нельзя было сказать, что это ребенок, потерявшийся в необитаемой пустыне, вдалеке от всякого жилья. Наконец ко мне вернулся дар речи, и я спросил: -Но... что ты здесь делаешь? И он опять попросил тихо и очень серьезно: -Пожалуйста... нарисуй мне барашка... Все это было так таинственно и непостижимо, что я не посмел отказаться. Хоть и нелепо это было здесь, в пустыне, на волосок от смерти, я все-таки достал из кармана лист бумаги и вечное перо. Но тут же вспомнил, что учился-то я больше географии, истории, арифметике и правописанию, - и сказал малышу (немножко даже сердито сказал), что не умею рисовать. Он ответил: -Все равно. Нарисуй барашка. Так как я никогда в жизни не рисовал баранов, я повторил для него одну из двух старых картинок, которые я только и умею рисовать, - удава снаружи. И очень изумился, когда малыш воскликнул: -Нет, нет! Мне не надо слона в удаве! Удав слишком опасен, а слон слишком большой. У меня дома все очень маленькое. Мне нужен барашек. Нарисуй барашка. И я нарисовал. Он внимательно посмотрел на мой рисунок и сказал: -Нет, этот барашек уже совсем хилый. Нарисуй другого. Я нарисовал. Мой новый друг мягко, снисходительно улыбнулся. -Ты же сам видишь, - сказал он, -это не барашек. Это большой баран. У него рога... Я опять нарисовал по-другому. Но он и от этого рисунка отказался. -Этот слишком старый. Мне нужен такой барашек, чтобы жил долго. Тут я потерял терпение - ведь надо было поскорее разобрать мотор - и нацарапал вот что: И сказал малышу: -Вот тебе ящик. А в нем сидит твой барашек. Но как же я удивился, когда мой строгий судья вдруг просиял: - Вот такого мне и надо! Как ты думаешь, много он ест травы? -А что? -Ведь у меня дома всего очень мало... -Ему хватит. Я тебе даю совсем маленького барашка. -Не такого уж маленького... - сказал он, наклонив голову и разглядывая рисунок. -Смотри-ка! Мой барашек уснул... Так я познакомился с Маленьким принцем.',
-    'Алисе надоело сидеть на пригорке рядом с сестрой и ничего не делать. Раза два она заглянула украдкой в книгу, которую читала её сестра, но там не было ни разговоров, ни картинок. «Какой толк в книге, –подумала Алиса, –если в ней нет ни картинок, ни разговоров?» Потом она стала раздумывать (насколько вообще это возможно в такой невыносимо жаркий день, когда одолевает дремота), стоит ли ей вставать, чтобы пойти нарвать маргаритки и сплести венок, или нет, как вдруг Белый Кролик с розовыми глазками пробежал мимо неё. В этом не было, конечно, ничего особенного. Не удивилась Алиса и тогда, когда Кролик пробормотал себе под нос: –Ах, боже мой, я опоздаю! Думая об этом впоследствии, Алиса не могла понять, почему же она не удивилась, услышав, что Кролик заговорил, но в тот момент это не показалось ей странным. Однако, когда Кролик вынул из жилетного кармана часы и, взглянув на них, побежал дальше, Алиса вскочила, сообразив, что никогда ещё не случалось ей видеть Кролика в жилете и с часами. Сгорая от любопытства, она бросилась за ним и успела заметить, как он юркнул в кроличью нору под живой изгородью. Алиса последовала за ним, даже не подумав о том, как она выберется оттуда. Кроличья нора сначала была прямая, как тоннель, но потом обрывалась так внезапно, что Алиса не успела опомниться, как полетела куда-то вниз, точно в глубокий колодец. То ли колодец был уж очень глубок, то ли Алиса падала слишком медленно, но она вполне успела осмотреться и задуматься о том, что же будет дальше. Сначала она поглядела вниз, но там было так темно, что невозможно было ничего разглядеть. Тогда она стала рассматривать стены колодца; на них было много шкафов с книгами и полок с посудой, а кое где висели по стенам географические карты и картины. Пролетая мимо одной из полок, Алиса схватила стоявшую на ней банку. На банке был бумажный ярлычок с надписью: «Апельсиновый джем». Однако, к величайшему огорчению Алисы, банка была пуста. Сначала она хотела просто бросить банку, но, побоявшись попасть кому-нибудь в голову, ухитрилась поставить её на другую полку, мимо которой пролетала.',
-    'Мистер и миссис Дурсль проживали в доме номер четыре по Тисовой улице и всегда с гордостью заявляли, что они, слава богу, абсолютно нормальные люди. Уж от кого-кого, а от них никак нельзя было ожидать, чтобы они попали в какую-нибудь странную или загадочную ситуацию. Мистер и миссис Дурсль весьма неодобрительно относились к любым странностям, загадкам и прочей ерунде. Мистер Дурсль возглавлял фирму под названием «Граннингс», которая специализировалась на производстве дрелей. Это был полный мужчина с очень пышными усами и очень короткой шеей. Что же касается миссис Дурсль, она была тощей блондинкой с шеей почти вдвое длиннее, чем положено при ее росте. Однако этот недостаток пришелся ей весьма кстати, поскольку большую часть времени миссис Дурсль следила за соседями и подслушивала их разговоры. А с такой шеей, как у нее, было очень удобно заглядывать за чужие заборы. У мистера и миссис Дурсль был маленький сын по имени Дадли, и, по их мнению, он был самым чудесным ребенком на свете. Семья Дурсльей имела все, чего только можно пожелать. Но был у них и один секрет. Причем больше всего на свете они боялись, что кто-нибудь о нем узнает. Дурсли даже представить себе не могли, что с ними будет, если выплывет правда о Поттерах. Миссис Поттер приходилась миссис Дурсль родной сестрой, но они не виделись вот уже несколько лет. Миссис Дурсль даже делала вид, что у нее вовсе нет никакой сестры, потому что сестра и ее никчемный муж были полной противоположностью Дурслям. Дурсли содрогались при одной мысли о том, что скажут соседи, если на Тисовую улицу пожалуют Поттеры. Дурсли знали, что у Поттеров тоже есть маленький сын, но они никогда его не видели. И они категорически не хотели, чтобы их Дадли общался с ребенком таких родителей. Когда во вторник мистер и миссис Дурсль проснулись скучным и серым утром — а именно с этого утра начинается наша история, — ничто, включая покрытое тучами небо, не предвещало, что вскоре по всей стране начнут происходить странные и загадочные вещи. Мистер Дурсль что-то напевал себе под нос, завязывая самый отвратительный из своих галстуков. А миссис Дурсль, с трудом усадив сопротивляющегося и орущего Дадли на высокий детский стульчик, со счастливой улыбкой пересказывала мужу последние сплетни. Никто из них не заметил, как за окном пролетела большая сова-неясыть. В половине девятого мистер Дурсль взял свой портфель, клюнул миссис Дурсль в щеку и попытался на прощанье поцеловать Дадли, но промахнулся, потому что Дадли впал в ярость, что с ним происходило довольно часто. Он раскачивался взад-вперед на стульчике, ловко выуживал из тарелки кашу и заляпывал ею стены.',
+    `So I lived my life alone, without anyone that I could really talk to, until I had an
+accident with my plane in the Desert of Sahara, six years ago. Something was
+broken in my engine. And as I had with me neither a mechanic nor any
+passengers, I set myself to attempt the difficult repairs all alone. It was a question
+of life or death for me: I had scarcely enough drinking water to last a week.
+The first night, then, I went to sleep on the sand, a thousand miles from any
+human habitation. I was more isolated than a shipwrecked sailor on a raft in the
+middle of the ocean. Thus you can imagine my amazement, at sunrise, when I was
+awakened by an odd little voice. It said:
+"If you please-- draw me a sheep!"
+"What!"
+"Draw me a sheep!"
+I jumped to my feet, completely thunderstruck. I blinked my eyes hard. I looked
+carefully all around me. And I saw a most extraordinary small person, who stood
+there examining me with great seriousness. Here you may see the best potrait that,
+later, I was able to make of him. But my drawing is certainly very much less
+charming than its model.
+That, however, is not my fault. The grown-ups discouraged me in my painter's
+career when I was six years old, and I never learned to draw anything, except boas
+from the outside and boas from the inside.
+Now I stared at this sudden apparition with my eyes fairly starting out of my head
+in astonishment. Remember, I had crashed in the desert a thousand miles from any
+inhabited region. And yet my little man seemed neither to be straying uncertainly
+among the sands, nor to be fainting from fatigue or hunger or thirst or fear.
+Nothing about him gave any suggestion of a child lost in the middle of the desert,
+a thousand miles from any human habitation. When at last I was able to speak, I
+said to him:
+"But-- what are you doing here?"
+And in answer he repeated, very slowly, as if he were speaking of a matter of great
+consequence: "If you please-- draw me a sheep..."
+When a mystery is too overpowering, one dare not disobey. Absurd as it might
+seem to me, a thousand miles from any human habitation and in danger of death, I
+took out of my pocket a sheet of paper and my fountain-pen. But then I
+remembered how my studies had been concentrated on geography, history,
+arithmetic, and grammar, and I told the little chap (a little crossly, too) that I did
+not know how to draw. He answered me:
+"That doesn't matter. Draw me a sheep..."
+But I had never drawn a sheep. So I drew for him one of the two pictures I had
+drawn so often. It was that of the boa constrictor from the outside. And I was
+astounded to hear the little fellow greet it with,
+"No, no, no! I do not want an elephant inside a boa constrictor. A boa constrictor
+is a very dangerous creature, and an elephant is very cumbersome. Where I live,
+everything is very small. What I need is a sheep. Draw me a sheep."
+So then I made a drawing.
+He looked at it carefully, then he said:
+"No. This sheep is already very sickly. Make me another."
+So I made another drawing.
+My friend smiled gently and indulgenty.
+"You see yourself," he said, "that this is not a sheep. This is a ram. It has horns."
+So then I did my drawing over once more.
+But it was rejected too, just like the others.
+"This one is too old. I want a sheep that will live a long time."
+By this time my patience was exhausted, because I was in a hurry to start taking
+my engine apart. So I tossed off this drawing.
+And I threw out an explanation with it.
+"This is only his box. The sheep you asked for is inside."
+I was very surprised to see a light break over the face of my young judge:
+"That is exactly the way I wanted it! Do you think that this sheep will have to have
+a great deal of grass?"
+"Why?"
+"Because where I live everything is very small..."
+"There will surely be enough grass for him," I said. "It is a very small sheep that I
+have given you."
+He bent his head over the drawing:
+"Not so small that-- Look! He has gone to sleep..." And that is how I made the
+acquaintance of the little prince. `,
+    `Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, “and what is the use of a book,” thought Alice “without pictures or conversations?”
+So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
+There was nothing so very remarkable in that; nor did Alice think it so very much out of the way to hear the Rabbit say to itself, “Oh dear! Oh dear! I shall be late!” (when she thought it over afterwards, it occurred to her that she ought to have wondered at this, but at the time it all seemed quite natural); but when the Rabbit actually took a watch out of its waistcoat-pocket, and looked at it, and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and burning with curiosity, she ran across the field after it, and fortunately was just in time to see it pop down a large rabbit-hole under the hedge.
+In another moment down went Alice after it, never once considering how in the world she was to get out again.
+The rabbit-hole went straight on like a tunnel for some way, and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down a very deep well.
+Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next. First, she tried to look down and make out what she was coming to, but it was too dark to see anything; then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled “ORANGE MARMALADE”, but to her great disappointment it was empty: she did not like to drop the jar for fear of killing somebody underneath, so managed to put it into one of the cupboards as she fell past it.
+“Well!” thought Alice to herself, “after such a fall as this, I shall think nothing of tumbling down stairs! How brave they'll all think me at home! Why, I wouldn't say anything about it, even if I fell off the top of the house!” (Which was very likely true.
+Down, down, down. Would the fall never come to an end? “I wonder how many miles I've fallen by this time?” she said aloud. “I must be getting somewhere near the centre of the earth. Let me see: that would be four thousand miles down, I think—” (for, you see, Alice had learnt several things of this sort in her lessons in the schoolroom, and though this was not a very good opportunity for showing off her knowledge, as there was no one to listen to her, still it was good practice to say it over) “—yes, that's about the right distance—but then I wonder what Latitude or Longitude I've got to?” (Alice had no idea what Latitude was, or Longitude either, but thought they were nice grand words to say.)  
+Presently she began again. “I wonder if I shall fall right through the earth! How funny it'll seem to come out among the people that walk with their heads downward! The Antipathies, I think—” (she was rather glad there was no one listening, this time, as it didn't sound at all the right word) “—but I shall have to ask them what the name of the country is, you know. Please, Ma'am, is this New Zealand or Australia?” (and she tried to curtsey as she spoke—fancy curtseying as you're falling through the air! Do you think you could manage it?) “And what an ignorant little girl she'll think me for asking! No, it'll never do to ask: perhaps I shall see it written up somewhere.”`,
+    `Nearly ten years had passed since the Dursleys had woken up to find their nephew on the front step, but Privet Drive had hardly changed at all. The sun rose on the same tidy front gardens and lit up the brass number four on the Dursleys' front door; it crept into their living room, which was almost exactly the same as it had been on the night when Mr. Dursley had seen that fateful news report about the owls. Only the photographs on the mantelpiece really showed how much time had passed. Ten years ago, there had been lots of pictures of what looked like a large pink beach ball wearing different-colored bonnets - but Dudley Dursley was no longer a baby, and now the photographs showed a large blond boy riding his first bicycle, on a carousel at the fair, playing a computer game with his father, being hugged and kissed by his mother. The room held no sign at all that another boy lived in the house, too.
+Yet Harry Potter was still there, asleep at the moment, but not for long. His Aunt Petunia was awake and it was her shrill voice that made the first noise of the day.
+"Up! Get up! Now!"
+Harry woke with a start. His aunt rapped on the door again.
+"Up!" she screeched. Harry heard her walking toward the kitchen and then the sound of the frying pan being put on the stove. He rolled onto his back and tried to remember the dream he had been having. It had been a good one. There had been a flying motorcycle in it. He had a funny feeling he'd had the same dream before.
+His aunt was back outside the door.
+"Are you up yet?" she demanded.
+"Nearly," said Harry.
+"Well, get a move on, I want you to look after the bacon. And don't you dare let it burn, I want everything perfect on Duddy's birthday."
+Harry groaned.
+"What did you say?" his aunt snapped through the door.
+"Nothing, nothing..."
+Dudley's birthday - how could he have forgotten? Harry got slowly out of bed and started looking for socks. He found a pair under his bed and, after pulling a spider off one of them, put them on. Harry was used to spiders, because the cupboard under the stairs was full of them, and that was where he slept.
+When he was dressed he went down the hall into the kitchen. The table was almost hidden beneath all Dudley's birthday presents. It looked as though Dudley had gotten the new computer he wanted, not to mention the second television and the racing bike. Exactly why Dudley wanted a racing bike was a mystery to Harry, as Dudley was very fat and hated exercise - unless of course it involved punching somebody. Dudley's favorite punching bag was Harry, but he couldn't often catch him. Harry didn't look it, but he was very fast.  
+Perhaps it had something to do with living in a dark cupboard, but Harry had always been small and skinny for his age. He looked even smaller and skinnier than he really was because all he had to wear were old clothes of Dudley's, and Dudley was about four times bigger than he was. Harry had a thin face, knobbly knees, black hair, and bright green eyes. He wore round glasses held together with a lot of Scotch tape because of all the times Dudley had punched him on the nose. The only thing Harry liked about his own appearance was a very thin scar on his forehead that was shaped like a bolt of lightning. He had had it as long as he could remember, and the first question he could ever remember asking his Aunt Petunia was how he had gotten it.`,
   ],
 };
 
