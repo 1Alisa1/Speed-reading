@@ -20,6 +20,10 @@ const Texts: React.FC = () => {
   const initialText =
     'It is necessary to read the selected text, following the highlighted area with your eyes. Try to follow the highlight cloud as close as possible, even if you did not have time to read something';
 
+  const splitTextToWords = (text: string) => {
+    return text.match(/((["(]*)(\w+[\-'])?(\w+)(\s*)([.,:;\-!?'")])*(\s*))/g) as string[];
+  };
+
   const [textValue, setTextValue] = useState(0);
   const [speedValue, setSpeedValue] = useState(0);
   const [isTextValid, setIsTextValid] = useState(true);
@@ -30,7 +34,7 @@ const Texts: React.FC = () => {
   const [visibleSettings, setVisibleSettings] = useState(true);
   const [finished, setFinished] = useState(false);
   const [arr, setArr] = useState(() => {
-    return getText(textValue).split(' ');
+    return splitTextToWords(getText(textValue));
   });
 
   useEffect(() => {
@@ -55,7 +59,7 @@ const Texts: React.FC = () => {
 
   const handleTextValueChanged = (textValue: number) => {
     setTextValue(textValue);
-    setArr(getText(textValue - 1).split(' '));
+    setArr(splitTextToWords(getText(textValue - 1)));
   };
 
   const onStartClick = () => {
